@@ -1,0 +1,109 @@
+body {
+  margin:0;
+  font-family:Arial;
+  padding: 0;
+  background-image: url(../images/tuyet.jpg);
+  background-size: cover;
+}
+.cover_picture{
+text-align: center;
+}
+
+.fullsite{
+  margin: 0 auto;
+  background-color: white;
+  width: 795px;
+}
+.bg-img{
+  background-image: url(../images/nav.gif);
+   /* background-repeat:repeat-y */
+   margin: 0 auto;
+   min-height: 50px;
+   max-width: 795px;
+  background-size: contain;
+   /* background-position: center; */
+   position: relative;
+   text-align: center;
+}
+
+
+.nav_bar a {
+  float: left;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav_bar a:hover {
+  background-color: #ddd;
+  color: orange;
+}
+hr{
+  width: 795px;
+ border: 1px solid black;
+}
+.main{
+  display: flex;
+  width: 795px;
+}
+.left_bar{
+  width: 25%;
+  height: auto;
+}
+.center_bar{
+  width:50%;
+    height: auto;
+}
+.right_bar{
+  width: 25%;
+  height: auto;
+}
+.danh_muc , .tu_van{
+  border: 1px solid gray;
+  margin: 0 2px;
+}
+.danh_muc a, .bai_viet a, .tu_van a{
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  color: black;
+}
+.danh_muc a:hover , .bai_viet a:hover, .tu_van a:hover, .tu_van img:hover{
+  background-color: black;
+  color: orange;
+}
+.menu_bar{
+  background-image: url(../images/menu_bar.gif);
+  background-size: cover;
+  text-align: center;
+}
+.bai_viet{
+  border: 1px solid gray;
+  margin: 15px 2px;
+}
+.anh_trai, .anh_phai{
+  text-align: center;
+}
+.anh_trai img, .anh_phai img{
+  width: 190px;
+}
+.tu_van{
+ text-align: center;
+}
+ .tu_van img{
+   width: 150px;
+ }
+ .quote
+ {
+   border: 1px solid white;
+   background-color: #FBB88D;
+   border-radius: 8%;
+   margin: 0 5px;
+ }
+.quote p{
+  font-style: italic;
+  font-size: 15px;
+
+}
